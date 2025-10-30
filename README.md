@@ -45,7 +45,7 @@ The project features validation, responsive UI components, modal dialogs for edi
 
 Follow these steps to run both the frontend and backend locally.
 
-### 🪄 Step 1 — Clone the Repository
+###  Step 1 — Clone the Repository
 
 ```bash
 git clone https://github.com/<your-username>/movies_manage.git
@@ -59,15 +59,15 @@ cd movies_manage
   npm install
 3️⃣ Create a .env file in /backend and add:
 # Database connection (Aiven MySQL)
-  DATABASE_URL="mysql://avnadmin:AVNS_EyxwpiAHnUQG0yuWl_R@mysql-30bf9984-siddhivinayaka291-5817.l.aivencloud.com:23838/defaultdb"
+  DATABASE_URL="mysql://url.com"
 
 # Server configuration
   PORT=5000
 
 # Cloudinary (for image hosting)
-  CLOUDINARY_CLOUD_NAME="diqynm3ie"
-  CLOUDINARY_API_KEY="641644521148565"
-  CLOUDINARY_API_SECRET="S8b4LFThZAi2VcS3Rr28RjJL73A"
+  CLOUDINARY_CLOUD_NAME="name"
+  CLOUDINARY_API_KEY="api_key_name"
+  CLOUDINARY_API_SECRET="secret_key"
 ⚠️ Replace Cloudinary values with your actual credentials from Cloudinary.
 
 4️⃣ Define Prisma Schema
